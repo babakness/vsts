@@ -43,3 +43,10 @@ Note: You may need to hold the function key to access f1-f12.
 `alt+0` Toggle Activity Bar Visibility
 `alt+9` Toggle Side Bar Visibility
 `alt+8` Toggle Status Bar activity
+
+
+## Notes
+
+Be sure to fill in the project name and description in package.json. Also add author, keywords, and license as needed.
+
+The `now` settings are basic settigns for publishing using `now-cli`. Fill in the `alias` parameter or remove it as needed.

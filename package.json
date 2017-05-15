@@ -1,18 +1,24 @@
 {
   "name": "your-project-here",
-  "version": "1.0.1",
-  "description": "Example Node Server w/ Babel",
+  "version": "0.0.1",
+  "description": "Your project description",
   "main": "build/index.js",
   "scripts": {
-  "start": "node build/index",
-  "dev": "NODE_ENV=local tsc",
-  "build": "tsc -p src/index.js",
-  "repl": "babel-node --presets es2015,stage-2"
+    "start": "NODE_ENV=production node build/index",
+    "dev": "NODE_ENV=dev nodemon src/index.ts --exec ts-node",
+    "build": "tsc",
+    "watch": "tsc -w"
   },
   "now": {
     "alias": [
-        ""
-    ]
+      ""
+    ],
+    "files": [
+      "build"
+    ],
+    "env": {
+      "NODE_ENV": "production"
+    }
   },
   "author": "Babak",
   "dependencies": {
@@ -21,6 +27,8 @@
   "devDependencies": {
     "@types/lodash": "^4.14.64",
     "@types/node": "^7.0.18",
-    "tsc": "^1.20150623.0"
+    "nodemon": "^1.11.0",
+    "ts-node": "^3.0.4",
+    "typescript": "^2.3.2"
   }
 }

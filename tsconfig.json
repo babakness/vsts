@@ -11,7 +11,7 @@
       // add path to @types
       "node_modules/@types"
     ],
-    "watch": true,                      
+    "watch": false,                      
     "module": "commonjs",                     /* Specify module code generation: 'commonjs', 'amd', 'system', 'umd' or 'es2015'. */
     // "lib": [],                             /* Specify library files to be included in the compilation:  */
     // "allowJs": true,                       /* Allow javascript files to be compiled. */

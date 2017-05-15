@@ -29,11 +29,11 @@ This is a simple starter scaffold for a Typescript server project.
 Note: You may need to hold the function key to access f1-f12.
 
 ### Specific Side Panels
-`alt+1` explorer
-`alt+2`search
-`alt+3`git
-`alt+4`debug
-`alt+5`extensions
+`alt+1` Toggle Explorer Side Pane
+`alt+2` Toggle Search Side Pane
+`alt+3` Toggle Git Side Pane
+`alt+4` Toggle Debug Side Pane
+`alt+5` Toggle Extensions Side Pane
 
 ### General Panel Toggles
 `alt+0` Toggle Activity Bar Visibility

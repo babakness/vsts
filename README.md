@@ -30,9 +30,13 @@ Note: You may need to hold the function key to access f1-f12.
 
 ### Specific Side Panels
 `alt+1` Toggle Explorer Side Pane
+
 `alt+2` Toggle Search Side Pane
+
 `alt+3` Toggle Git Side Pane
+
 `alt+4` Toggle Debug Side Pane
+
 `alt+5` Toggle Extensions Side Pane
 
 ### General Panel Toggles

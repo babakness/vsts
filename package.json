@@ -7,7 +7,8 @@
     "start": "NODE_ENV=production node build/index",
     "dev": "NODE_ENV=dev nodemon src/index.ts --exec ts-node",
     "build": "tsc",
-    "watch": "tsc -w"
+    "watch": "tsc -w",
+    "repl": "ts-node"
   },
   "now": {
     "alias": [

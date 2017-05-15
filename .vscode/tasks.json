@@ -18,6 +18,6 @@
       "args": ["watch"],
       "suppressTaskName": true,
       "showOutput": "always"
-    },
+    }
   ]
 }

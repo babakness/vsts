@@ -10,7 +10,7 @@
             "sourceMaps": true,
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceRoot}/build/main",
+            "program": "${workspaceRoot}/build/index",
             "outFiles": []
         }
     ]

@@ -1,0 +1,23 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "0.1.0",
+  "command": "yarn",
+  "isShellCommand": true,
+  "showOutput": "silent",
+  "suppressTaskName": true,
+  "tasks": [
+    {
+      "taskName": "Monitor App Output",
+      "args": ["dev"],
+      "suppressTaskName": true,
+      "showOutput": "always"
+    },
+    {
+      "taskName": "Watch & Build Project",
+      "args": ["watch"],
+      "suppressTaskName": true,
+      "showOutput": "always"
+    },
+  ]
+}

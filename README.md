@@ -50,3 +50,5 @@ Note: You may need to hold the function key to access f1-f12.
 Be sure to fill in the project name and description in package.json. Also add author, keywords, and license as needed.
 
 The `now` settings are basic settigns for publishing using `now-cli`. Fill in the `alias` parameter or remove it as needed.
+
+Output targets `es2016` given the presumption that this is for a server/node enviroment. If this scaffolding starter is being used for the browser, the configure `lib: ["es2015"]` and `target: ["es5"]` in `tsconfig.json`

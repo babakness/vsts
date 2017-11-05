@@ -1,0 +1,51 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+    "key": "ctrl+f5",
+    "command": "workbench.action.reloadWindow",
+    "when": "editorTextFocus"
+    },
+    { "key": "shift+cmd+d",        "command": "editor.action.copyLinesDownAction",
+                                   "when": "editorTextFocus && !editorReadonly" },
+    { "key": "alt+0",              "command": "workbench.action.toggleActivityBarVisibility"
+                                    },
+{ "key": "alt+9",                 "command": "workbench.action.toggleSidebarVisibility" },
+{ "key": "alt+8",                 "command": "workbench.action.toggleStatusbarVisibility" },
+
+{ "key": "alt+4",           "command": "workbench.view.debug" },
+{ "key": "alt+1",           "command": "workbench.view.explorer" },
+{ "key": "alt+5",           "command": "workbench.view.extensions" },
+{ "key": "alt+3",          "command": "workbench.view.scm" },
+{ "key": "alt+2",           "command": "workbench.view.search",
+                                     "when": "!searchViewletVisible" },
+{
+    "key": "shift+cmd+b",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Watch & Build Project"
+},
+{
+    "key": "shift+cmd+m",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Monitor App Output"
+},
+{
+    "key": "alt+p",
+    "command": "git.push"
+},
+{
+    "key": "alt+cmd+p",
+    "command": "projectManager.listProjectsNewWindow"
+},
+{
+    "key": "ctrl+cmd+p",
+    "command": "projectManager.listProjects"
+},
+{
+    "key": "alt+cmd+p",
+    "command": "-projectManager.listProjects"
+},
+{
+    "key": "shift+cmd+;",
+    "command": "pgsql.runSelectionOrFile"
+}
+]
